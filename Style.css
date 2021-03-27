@@ -135,7 +135,7 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
 }
 .bg-video::before {
     content: '';
-    height: 889px;
+/*     height: 889px; */
     position: absolute;
     top: 0;
     bottom: 0;
