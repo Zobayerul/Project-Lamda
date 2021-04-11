@@ -11,3 +11,7 @@ $(".preloader-ring").each(function () {
         a = a + 12;
     }
 });
+$(window).on('load', function () {
+    $('#inner').fadeOut();
+    $('#preloader').delay(400).fadeOut();
+});

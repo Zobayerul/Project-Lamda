@@ -5,6 +5,27 @@ html{
 body,h1,h2,h3,h4,h5.h6,p,a,span{
     font-family: 'Roboto', sans-serif;
 }
+#preloader{
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+#inner{
+	position: absolute;
+	background-image: url('./img/preloder.gif');
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+	
+}
 /* Preloader Css*/
 .preloader {
     display: flex;
@@ -73,7 +94,7 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
         transform: rotateY(1turn);
     }
 }
-/* Preloader Css*/
+/* Preloader Css */
 
 /* Header Css  Start */
 .header {
@@ -135,7 +156,7 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
 }
 .bg-video::before {
     content: '';
-/*     height: 889px; */
+    /* height: 889px; */
     position: absolute;
     top: 0;
     bottom: 0;
